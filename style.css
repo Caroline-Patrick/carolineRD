@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.image-background {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .image-background {
+        display: block;
+        height: 150vh;
+        background-image: url('/Images/shop-exterior.jpg');
+        background-size: 500px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 32%;
+
+    }
+
+    .image-background p, h2 {
+        color: antiquewhite;
+        width: 40%;
+
+    }
+
+    .image-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 10%;
+        padding-top: 10%;
+        line-height: 22px;
+
+        
+    }
+
+    .more {
+        border: 1px solid black;
+        background-color: black;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 5pt 10pt;
+    }
+
+
+}

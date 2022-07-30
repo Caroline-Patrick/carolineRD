@@ -1,0 +1,59 @@
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 30%;
+    background-color: whitesmoke;
+    font-family: 'Alfa Slab One';
+    font-size: 20px;
+    color: rgb(16, 35, 39)
+
+  }
+
+  .logo-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  header li {
+    display: inline;
+    margin: 20px;
+  
+  }
+
+  header li a {
+    color: rgb(16, 35, 39);
+    text-decoration: none;
+  }
+
+  .menu-container {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+  }
+
+  #logo-container {
+    grid-area: logo;
+    width: 130px;
+    background-image: url(/Images/logo.png);
+    background-size: 100%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+   
+  }
+
+  #title {
+    grid-area: title;
+    width: 350px;
+  }
+}
