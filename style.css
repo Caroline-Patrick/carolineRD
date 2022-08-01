@@ -1,5 +1,8 @@
+
+ @media only screen and (max-width: 765px) {
 body {
     background-color: whitesmoke;
+    color:rgb(10, 22, 24);
 }
 
 .content-wrapper {
@@ -8,11 +11,33 @@ body {
 
 .image-background {
     display: none;
+
 }
+img {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ }
+
+ img:hover {
+    filter: brightness(50%);
+
+}
+
 
 @media only screen and (min-width: 768px) {
 
-
+    .navbar {
+        display: none;
+    }
     .image-background {
         display: block;
         height: 125vh;
@@ -61,7 +86,6 @@ body {
     img {
         width: 300px;
         height: 200px;
-        object-fit: contain;
         
     }
 
@@ -70,11 +94,6 @@ body {
         justify-content: space-around;
         margin-top: -100px;
         text-align: center;
-    }
-
-    img:hover {
-        filter: brightness(50%);
-
     }
 
     }
