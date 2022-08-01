@@ -60,12 +60,28 @@
 .social-footer {
   display: flex;
   justify-content: space-between;
-  margin: 0pt 30pt;
+  color:antiquewhite;
+  background-color: rgb(16, 35, 39) ;
+}
+
+.social-footer-left {
+  align-items: baseline;
+  margin: 15pt 30pt;
+  line-height: 22px;
+  font-size: 15px;
 }
 
 .fa {
   padding: 30pt;
+  font-size: 20px;
 }
 
+.fa:hover {
+  opacity: .7;
+}
+
+footer a:visited {
+  color: whitesmoke;
+}
 
 }
