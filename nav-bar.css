@@ -10,7 +10,7 @@
     right: 0;
     padding-top: 3%;
     padding-bottom: 3%;
-    height: 30%;
+    height: 200px;
     background-color: whitesmoke;
     font-family: 'Alfa Slab One';
     font-size: 20px;
@@ -56,4 +56,16 @@
     grid-area: title;
     width: 350px;
   }
+
+.social-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0pt 30pt;
+}
+
+.fa {
+  padding: 30pt;
+}
+
+
 }
