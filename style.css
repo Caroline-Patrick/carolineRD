@@ -41,7 +41,7 @@ section {
     .image-background {
         display: block;
         height: 125vh;
-        background-image: url('/Images/shop-exterior.jpg');
+        background-image: url('./Images/shop-exterior.jpg');
         background-size: 500px;
         background-color: transparent;
         background-repeat: no-repeat;
