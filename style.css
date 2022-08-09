@@ -37,7 +37,7 @@ img {
 
 .about-page {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .25fr 1.75fr;
     
 }
 
@@ -46,17 +46,26 @@ img {
     text-align: center;
 }
 
+.about-title h2 {
+    color: rgb(10, 22, 24) ;
+    
+    width: 100%;
+}
+
 .about-content {
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
+    min-width: 300pt;
+    align-items: center;
 }
  
 .about-content article {
     padding: 10pt;
     margin: 0pt 20pt;
+    
 }
  }
 
@@ -137,8 +146,19 @@ img {
         padding-top: 20%;
     }
 
+    .about-content article {
+        padding: 10pt;
+        margin: 0pt 10%;
+        max-width: 800pt;
+        
+        
+    }
     }
 
 
     
-   
+    @media only screen and (min-width: 1500px) {
+
+
+
+    }
