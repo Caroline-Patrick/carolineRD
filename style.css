@@ -208,12 +208,14 @@ article > img {
     margin: 0pt 20pt;
     
 }
-.social-footer {
+footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;    
     color:antiquewhite;
     background-color: rgb(16, 35, 39) ;
     margin-top: 5%;
+    align-items: center;
+    text-align: center;
   }
   
   .social-footer-left {
@@ -221,6 +223,11 @@ article > img {
     margin: 30pt 30pt;
     line-height: 22px;
     font-size: 20px;
+    width: 100%;
+  }
+  .menu-simple {
+    display: flex;
+
   }
   
   .fa {
@@ -247,6 +254,10 @@ article > img {
 
 
 @media only screen and (min-width: 768px) {
+
+  .mobile-content {
+    display: none;
+  }
 
   .landing-grid {
     grid-template-rows: .25fr 2.25fr 1.25fr .25fr;
