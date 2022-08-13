@@ -9,6 +9,7 @@
   }
    header {
     background-color: antiquewhite;
+    grid-template-rows: 1/2;
    }
 
    .logo-title {
