@@ -209,6 +209,7 @@ article > img {
     
 }
 footer {
+  grid-row: 4/5;
     display: flex;
     flex-direction: column-reverse;    
     color:antiquewhite;
@@ -332,13 +333,18 @@ footer {
         display: none;
     }
     .image-background {
+        /* position: absolute; */
+        top:0;
+        left: 0;
+        width: 100%;
         display: block;
-        height: 125vh;
-        background-image: url('./Images/shop-exterior.jpg');
+        height: 100%;
+        background-image: url('./Images/shop-exterior-resized.png');
         background-size: 0;
         background-color: transparent;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: center center;
         grid-row: 2/3;
 
     }
@@ -376,11 +382,7 @@ footer {
         background-color: rgb(45, 120, 131) 
     }
 
-    img {
-        width: 300px;
-        height: 200px;
-        
-    }
+ 
 
     .picture-container {
         display: flex;
@@ -395,9 +397,16 @@ footer {
         filter: brightness(50%);
     
     }
-
-
-
+    article > img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      
+  }
+  
+  .pics {
+    padding: 0%;
+  }
     body {
         padding-top: 20%;
     }
@@ -409,9 +418,9 @@ footer {
         
         
     }
-    .social-footer {
+    footer {
         grid-row: 4/5;
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         color:antiquewhite;
         background-color: rgb(16, 35, 39) ;
@@ -423,6 +432,7 @@ footer {
         margin: 30pt 30pt;
         line-height: 22px;
         font-size: 20px;
+        text-align: left;
       }
       
       .fa {
@@ -441,7 +451,7 @@ footer {
       
       }
 
-    }
+    
 
 
     
