@@ -133,7 +133,7 @@
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 3%;
+    /* padding-top: 3%; */
     background-color: whitesmoke;
     font-family: 'Alfa Slab One';
     font-size: 20px;
@@ -183,6 +183,10 @@
     margin-right: 5%;
     background-repeat: no-repeat;
    
+  }
+
+  .logo-title {
+    margin-top: 3%;
   }
 
   #title {
