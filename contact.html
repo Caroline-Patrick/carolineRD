@@ -41,8 +41,56 @@
          </div>
      </div>
      </header>
+
+   <main>
+
+     <form action="Submit" method="post" >
+       <h1>Get in Touch!</h1>
+       <label>
+         <span> Your Name: </span>
+         <input type="text" name="name" id="name" placeholder="Your full name" required >
+       </label>
+   
+   <label>
+     <span>Your Email: </span>
+     <input type="email" name="email" id="email" placeholder="Valid email address" required >
+   </label>
+<br>
+   <label>
+       <span>Message: </span>
+       <textarea id="contact-message" name="contact-message" placeholder="Your message" min="20" max="500" required></textarea>
+   </label>
+
+  <label>
+       <span>How did you hear about me?</span>
+     <select name="answer-options">
+       <option value="Google">Google Search</option>
+       <option value="Friend">Friend</option>
+       <option value="Social">Social Media</option>
+       <option value="tv">Television Ad</option>
+       <option value="other">Other</option>
+     </select>
      
-    
+<br>
+<label>
+    <input type="submit" class="button" value="Send"  />
+</label>
+   
+ </form>
+     </main>
+     <footer class="about-footer">
+        <div class="social-footer-left">
+            <h5>Hair Today, Gone Tomorrow (c)2022</h5>
+        </div>
+        <div class="social-footer-icons">
+        <div class="menu-simple">
+           <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true" fa-2x></i></a>
+           <a href="htttps://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="htttps://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="htttps://www.youtube.com" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+        </div>
+    </footer>
 </body>
 <script src="./scripts.js"></script>
 </html>
