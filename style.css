@@ -7,7 +7,7 @@
       box-sizing: border-box;
       
     }
-    
+
     header {
         background-color: whitesmoke;
         grid-row: 1/2;
@@ -28,10 +28,7 @@
       width: 200px;
      }
     
-      /* #title {
-        margin-top: 50px;
-        color: rgb(16, 35, 39);
-      } */  
+  
 
       .menu-container {
         background-color: whitesmoke;
@@ -47,13 +44,7 @@
         text-decoration: none;
        }
     
-       /* .navbar {
-        min-height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 24px;
-       } */
+
     
        .nav-link {
         transform: 0.7s ease;
@@ -213,6 +204,39 @@ article > img {
     margin: 0pt 20pt;
     
 }
+/* start gallery */
+.gallery-page {
+  display: grid;
+  grid-template-rows: .15fr .05fr 3.75fr .05fr;
+}
+.gallery-title {
+  grid-row: 2/3;
+}
+
+.gallery-title h2 {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.gallery {
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;}
+
+.gallery > img {
+  width: 415px;
+  padding: 10pt;
+
+}
+
+.gallery img:hover {
+  filter: brightness(50%);
+}
+
+/* start footer */
 footer {
   grid-row: 4/5;
     display: flex;
@@ -254,10 +278,10 @@ footer {
   footer a:visited {
     color: whitesmoke;
   }
+ 
  }
-
  @media only screen and (min-width: 576px) {
-  
+
  }
 
 @media only screen and (min-width: 768px) {
@@ -275,7 +299,6 @@ footer {
         top: 0;
         left: 0;
         right: 0;
-        /* padding-top: 3%; */
         background-color: whitesmoke;
         font-family: 'Alfa Slab One';
         font-size: 20px;
@@ -318,35 +341,18 @@ footer {
       .nav-branding {
         display: none;
       }
-    
-      /* #logo-container {
-        width: 130px;
-        background-size: 100%;
-        background-repeat: no-repeat;
-       
-      } */
-    
-      /* .logo-title {
-        margin-top: 3%;
-      } */
-/*     
-      #title {
-        width: 350px;
-        margin-top: 10pt;
-    
-      } */
+  
     .navbar {
         display: none;
     }
     .image-background {
-        /* position: absolute; */
+   
         top:0;
         left: 0;
         width: 100%;
         display: block;
         height: 100%;
         background-image: url('./Images/shop-exterior-resized.png');
-        /* background-size: 0; */
         background-color: transparent;
         background-repeat: no-repeat;
         background-size: cover;
@@ -427,6 +433,16 @@ footer {
         
         
     }
+/* start gallery */
+
+.gallery-title h2 {
+  text-align: center;
+  width: 100%;
+  color:  black;
+  padding-top: 8%;
+}
+
+    /* start footer */
     footer {
         grid-row: 4/5;
         flex-direction: row;
@@ -461,3 +477,14 @@ footer {
       }
 
   
+
+
+      @media only screen and (min-width: 1200px) {
+
+      
+      .gallery-title h2 {
+        padding-bottom: 5%;
+     
+      }
+      
+    }
