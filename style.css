@@ -5,6 +5,7 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
+      font-family: 'Playfair Display', serif;
       
     }
 
@@ -104,7 +105,9 @@
     
       .nav-item {
         margin: 16px 0;
-        font-family: sans-serif;
+      font-family: 'Playfair Display', serif;
+
+        text-transform: uppercase;
     
       }
     
@@ -116,6 +119,7 @@ body {
  
     background-color: whitesmoke;
     color:rgb(10, 22, 24);
+
 }
 
 /* for mobile */
@@ -173,6 +177,7 @@ article > img {
   grid-row: 3/4;
     min-width: 400px;
     text-align: center;
+
   
 }
 
@@ -183,6 +188,8 @@ article > img {
 .about-title > h2 {
     color: rgb(10, 22, 24) ;
     width: 100%;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
 }
 .about-image img {
   width: 100%;
@@ -421,7 +428,7 @@ footer {
         left: 0;
         right: 0;
         background-color: whitesmoke;
-        font-family: 'Alfa Slab One';
+        font-family: 'Playfair Display', serif;
         font-size: 20px;
         color: rgb(16, 35, 39);
        
