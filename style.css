@@ -5,7 +5,7 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Nunito Sans', sans-serif;
       
     }
 
@@ -105,8 +105,7 @@
     
       .nav-item {
         margin: 16px 0;
-      font-family: 'Playfair Display', serif;
-
+        font-family: 'Nunito Sans', sans-serif;
         text-transform: uppercase;
     
       }
@@ -188,7 +187,7 @@ article > img {
 .about-title > h2 {
     color: rgb(10, 22, 24) ;
     width: 100%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito Sans', sans-serif;
     text-transform: capitalize;
 }
 .about-image img {
@@ -428,7 +427,7 @@ footer {
         left: 0;
         right: 0;
         background-color: whitesmoke;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Nunito Sans', sans-serif;
         font-size: 20px;
         color: rgb(16, 35, 39);
        
@@ -503,20 +502,21 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 10%;
         padding-top: 5%;
         line-height: 19pt;
-
         
     }
 
+    .image-content > h2 {
+      margin-left: 10%;
+    }
     .more {
         background-color: rgb(10, 22, 24);
         color: antiquewhite;
         text-decoration: none;
         padding: 5pt 10pt;
         margin-top: 3pt;
-        
+        margin-left: 10%;
     }
 
     .more:hover {
