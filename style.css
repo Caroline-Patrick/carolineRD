@@ -355,7 +355,7 @@ textarea{
  
 }
 
-}
+
 .button:hover {
   background: rgb(8, 194, 185);
   cursor: pointer;
@@ -401,7 +401,7 @@ footer {
   
   footer a:visited {
     color: whitesmoke;
-  }
+  }}
  
  
  @media only screen and (min-width: 576px) {
@@ -479,8 +479,8 @@ footer {
         width: 100%;
         display: block;
         height: 100%;
-        background-image: url('./Images/shop-exterior-resized.png');
-        background-color: transparent;
+        /* background-image: url('./Images/shop-exterior-resized.png'); */
+        background-color: blue;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
