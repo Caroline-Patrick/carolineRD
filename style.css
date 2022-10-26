@@ -7,6 +7,7 @@
       box-sizing: border-box;
       font-family: 'Nunito Sans', sans-serif;
       
+
     }
 
     header {
@@ -26,13 +27,15 @@
       }
 
      div > img {
-      width: 200px;
+      
+      width: 300px;
      }
     
   
 
       .menu-container {
         background-color: whitesmoke;
+        margin-top: 35px;
       }
       
     
@@ -93,7 +96,7 @@
       .nav-menu {
         position: fixed;
         left: -100%;
-        top: 190px;
+        top: 180px;
         gap: 0;
         flex-direction: column;
         background-color: rgb(16, 35, 39);
@@ -153,7 +156,7 @@ body {
 }
 
 .more:hover {
-  background-color: rgb(45, 120, 131) 
+  background-color: rgb(216, 68, 148);
 }
 article > img {
     width: 80%;
@@ -480,7 +483,7 @@ footer {
         display: block;
         height: 100%;
         /* background-image: url('./Images/shop-exterior-resized.png'); */
-        background-color: blue;
+        background: linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -520,7 +523,7 @@ footer {
     }
 
     .more:hover {
-        background-color: rgb(45, 120, 131) 
+        background-color: rgb(216, 68, 148) 103.3% 
     }
 
  
