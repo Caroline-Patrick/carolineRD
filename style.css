@@ -223,12 +223,18 @@ article > img {
   text-align: center;
 }
 
+.services-title {
+  grid-row: 2/3;
+  color: black;
+}
+
 .services-title > h2 {
   text-align: center;
   padding-top: 4%;
+  color: black;
 }
 .services-content {
-  grid-row: 2/4;
+  grid-row: 3/4;
   justify-content: center;
   align-content: center;
 }
@@ -543,7 +549,7 @@ footer {
     }
 .about-grid {
   display: grid;
-  grid-template-rows: .2fr .1fr 2fr 2.5fr .2fr ;
+  grid-template-rows: 2% 3% 45% 50%;
 }
 .about-image img {
   width: 30%;
@@ -559,13 +565,19 @@ footer {
         
     }
 /* start gallery */
+.services-title {
+  grid-row: 1/2;
+}
 
-.gallery-title > h2 {
-  grid-column: 1/2;
-  text-align: left;
+.services-title > h2, h3,h4, h5, p, ul {
+  text-align: center;
   width: 100%;
   color:  black;
-  padding-top: 8%;
+  padding-top: 0;
+}
+
+.services-title > hr{
+  width: 60%;
 }
 /* start blog */
 
