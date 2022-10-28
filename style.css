@@ -228,10 +228,16 @@ article > img {
   color: black;
 }
 
-.services-title > h2 {
+.services-title > h2, h3,h4, h5, p, ul{
   text-align: center;
-  padding-top: 4%;
-  color: black;
+    width: 100%;
+    color:  black;
+    padding-top: 0;
+  
+}
+#services-insurance {
+  background: radial-gradient(circle at 0.1% 99.8%, rgb(0, 164, 189) 0%, rgb(0, 189, 165) 90%);
+
 }
 .services-content {
   grid-row: 3/4;
@@ -240,56 +246,12 @@ article > img {
 }
 
 
-/* start blog */
+/* start resources */
 
-.blog-page {
-  display: grid;
-  grid-template-rows: .2fr .1fr 3.5fr .2fr;
-}
-.blog-title {
-  text-align: center;
-  padding: 5% 0%;
-}
 
-.img-div {
-  display: flex;
-  justify-content: space-around;
-  width: 400px;
-  padding-left: 25vw;
-}
 
-.img-div > img {
-  width: 100%;
-  align-items: center;
-}
 
-.blog-content > article {
-  display: flex;
-  flex-direction: column;
-}
 
-.content-div > h3, p {
- text-align: center;
- padding: 2% 10% 0% 10%;
-}
-
-.button-style {
-  align-items: center;
-  margin-left: 44vw;
-  margin-top: 2%;;
-  margin-bottom: 10%;
-  background-color: rgb(18, 50, 55);
-  color: antiquewhite;
-  text-decoration: none;
-  padding: 10px 10px;
-  border: none;
-}
-
-.button-style:hover {
-  background-color: rgb(45, 120, 131) ;
-  color: antiquewhite;
-  cursor: pointer;
-}
 
 /* start contact */
 form {
@@ -364,7 +326,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;    
     color:antiquewhite;
-    background-color: rgb(16, 35, 39) ;
+    background-color: rgb(78, 75, 73);
     margin-top: 5%;
     align-items: center;
     text-align: center;
@@ -377,6 +339,9 @@ footer {
     line-height: 22px;
     font-size: 20px;
     width: 100%;
+  }
+  .social-footer-left > h5 {
+    color: white;
   }
   .menu-simple {
     display: flex;
@@ -579,6 +544,12 @@ footer {
 .services-title > hr{
   width: 60%;
 }
+
+.insurance-li {
+  text-align: left;
+  padding-left: 15%;
+}
+
 /* start blog */
 
 .blog-page {
@@ -634,7 +605,6 @@ form {
         flex-direction: row;
         justify-content: space-between;
         color:antiquewhite;
-        background-color: rgb(16, 35, 39) ;
         margin-top: 5%;
       }
       
@@ -644,7 +614,13 @@ form {
         line-height: 22px;
         font-size: 20px;
         text-align: left;
+        color: white;
       }
+
+.social-footer-left > h5 {
+
+  text-align: left;
+}
       
       .fa {
         padding: 30pt;
